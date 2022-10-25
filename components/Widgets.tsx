@@ -6,6 +6,7 @@ type Props = {};
 
 function Widgets({}: Props) {
     const name = "LinathiMqalo"
+    const username = "elonmusk"
   return (
     <div className="hidden lg:inline lg:col-span-3 lg:ml-4 lg:px-6 px-2 mt-2">
       {/*Search */}
@@ -21,7 +22,7 @@ function Widgets({}: Props) {
 
       <TwitterTimelineEmbed
       sourceType="profile"
-      screenName={name}
+      screenName={username}
       options={{height: 1000}} />
     </div>
   );
